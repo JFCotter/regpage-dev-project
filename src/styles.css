@@ -259,9 +259,7 @@ select {
 
 .textBoxHalfWidth,
 .textBox {
-  border-color: rgb(160, 160, 160);
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid rgb(160, 160, 160);
   height: 32px;
   font-size: 16px;
   width: 80%;
