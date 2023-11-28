@@ -195,7 +195,7 @@ select {
   flex-flow: column;
 }
 
-.mainReg {
+.regContainer {
   margin: 40px 0;
   max-width: 760px;
   border-radius: 5px;
@@ -213,6 +213,7 @@ select {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .intro {
