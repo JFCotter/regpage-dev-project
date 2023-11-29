@@ -352,8 +352,10 @@ select {
     padding: 10px;
   }
   .textBox {
+    min-width: 400px;
   }
   .textBoxHalfWidth {
+    margin: 0 10px;
   }
   .dateBox {
     margin: 2px 0;
