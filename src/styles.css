@@ -221,8 +221,7 @@ select {
 }
 
 .regDetails {
-  max-width: 80%;
-  margin: auto;
+  padding: 0 76px;
 }
 
 .flexContainerInput {
@@ -263,13 +262,13 @@ select {
   border: 1px solid rgb(160, 160, 160);
   height: 32px;
   font-size: 16px;
-  width: 80%;
+  width: 60px;
   padding: 4px;
-  margin-bottom: 3%;
+  margin-bottom: 10px;
 }
 
 .textBoxHalfWidth {
-  width: 50%;
+  width: 30px;
 }
 
 .warning {
@@ -289,8 +288,7 @@ select {
   appearance: none;
   height: 44px;
   font-size: 16px;
-  border-color: rgb(160, 160, 160);
-  border-width: 1px;
+  border: rgb(160, 160, 160), 1px;
   padding: 4px;
   border-radius: 5px;
   background: url("/public/dropdownIcon.png") no-repeat 96% center;
@@ -299,7 +297,7 @@ select {
 }
 
 .year {
-  margin: 1% 0;
+  margin: 2px;
 }
 
 #password {
@@ -313,7 +311,7 @@ select {
   border-radius: 5px;
   border-style: hidden;
   padding: 14px 24px;
-  min-width: 30%;
+  min-width: 30px;
   margin: 28px 0;
 }
 
@@ -324,7 +322,6 @@ select {
 
 .footerReg {
   background-color: rgb(100, 100, 100);
-  margin-top: auto;
   padding-top: 40px;
 }
 
@@ -333,7 +330,6 @@ select {
   text-align: center;
   font-size: 14px;
   max-width: 760px;
-  margin: auto;
 }
 
 .smallHeading {
@@ -353,17 +349,14 @@ select {
 @media (max-width: 768px) {
   /*FOR TABLETS*/
   .mainReg {
-    max-width: 96%;
-    margin: 1% 0;
+    padding: 10px;
   }
   .textBox {
-    width: 98%;
   }
   .textBoxHalfWidth {
-    width: 98%;
   }
   .dateBox {
-    margin: 1% 0;
+    margin: 2px 0;
   }
   .flexContainerDateBox {
     flex-direction: column;
@@ -375,9 +368,7 @@ select {
 }
 @media (max-width: 425px) {
   /*FOR PHONES*/
-  .mainTitle {
-    font-size: 20px;
-  }
+  .mainTitle,
   .purpleSubheading {
     font-size: 20px;
   }
