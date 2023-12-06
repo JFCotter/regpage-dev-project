@@ -369,7 +369,7 @@ select {
     width: 100%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   /*FOR PHONES*/
   .regContainer {
     margin: 1rem 0;
