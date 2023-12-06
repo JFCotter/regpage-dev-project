@@ -84,8 +84,13 @@ video {
   background: transparent;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   line-height: 24px;
+  font-size: 1.6rem;
 }
 
 article,
@@ -188,8 +193,8 @@ select {
 }
 
 .logoWhiteFont {
-  width: 143px;
-  padding: 27px 20px 17px 30px;
+  width: 14.3rem;
+  padding: 2.7rem 2rem 1.7rem 3rem;
 }
 
 .flexContainerMain {
@@ -199,20 +204,20 @@ select {
 }
 
 .regContainer {
-  margin: 40px 0;
-  max-width: 760px;
-  border-radius: 5px;
-  box-shadow: 0 0 8px 0 rgb(160, 160, 160);
+  margin: 4rem 0;
+  max-width: 76rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.8rem 0 rgb(160, 160, 160);
   align-self: center;
 }
 
 .mainTitle {
   background-color: rgb(143, 64, 156);
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 800;
-  padding: 20px 0px;
-  border-radius: 5px 5px 0 0;
+  padding: 2rem 0;
+  border-radius: 0.5rem 0.5rem 0 0;
   font-family: sans-serif;
   text-align: center;
 }
@@ -222,7 +227,7 @@ select {
 }
 
 .regDetails {
-  padding: 24px 76px 40px;
+  padding: 2.4rem 7.6rem 4rem;
 }
 
 .flexContainerInput {
@@ -233,18 +238,18 @@ select {
 
 .pSmall {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .purpleSubheading {
   color: rgb(143, 64, 156);
-  font-size: 22px;
-  margin: 20px 0px;
+  font-size: 2.2rem;
+  margin: 2rem 0;
   font-family: sans-serif;
 }
 
 .formText {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .inputLabel {
@@ -254,26 +259,26 @@ select {
 }
 
 .labelDetail {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .helpIcon {
-  height: 38px;
+  height: 3.8rem;
 }
 
 .textBox {
-  border: 1px solid rgb(160, 160, 160);
-  height: 32px;
-  padding: 4px;
-  margin: 20px 0;
+  border: 0.1rem solid rgb(160, 160, 160);
+  height: 3.2rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
 }
 
 .textBoxHalfWidth {
-  width: 300px;
-  border: 1px solid rgb(160, 160, 160);
-  height: 32px;
-  padding: 4px;
-  margin: 20px 0;
+  width: 30rem;
+  border: 0.1rem solid rgb(160, 160, 160);
+  height: 3.2rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
 }
 
 .warning {
@@ -291,14 +296,14 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  height: 44px;
-  border: rgb(160, 160, 160), 1px;
-  padding: 4px;
-  margin: 20px 0;
-  border-radius: 5px;
+  height: 4.4rem;
+  border: rgb(160, 160, 160), 0.1rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
   background: url("/public/dropdownIcon.png") no-repeat 96% center;
   flex-grow: 0.24;
-  margin-right: 8px;
+  margin-right: 0.8rem;
 }
 
 #password {
@@ -309,9 +314,9 @@ select {
 .purpleButton {
   background-color: rgb(143, 64, 156);
   color: rgb(255, 255, 255);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   border-style: hidden;
-  padding: 14px 40px;
+  padding: 1.4rem 4rem;
 }
 
 .purpleButton:hover {
@@ -328,20 +333,20 @@ select {
 .footerContent {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 14px;
-  max-width: 760px;
+  font-size: 1.4rem;
+  max-width: 76rem;
   align-self: center;
-  margin: 0 0 30px;
+  margin: 0 0 3rem;
 }
 
 .smallHeading {
-  font-size: 16px;
-  padding: 25px 0;
+  font-size: 1.6rem;
+  padding: 2.5rem 0;
 }
 
 .paymentCards {
-  max-height: 40px;
-  padding-bottom: 20px;
+  max-height: 4rem;
+  padding-bottom: 2rem;
 }
 
 .version {
@@ -352,7 +357,7 @@ select {
 @media (max-width: 768px) {
   /*FOR TABLETS*/
   .flexContainerMain {
-    padding: 8px;
+    padding: 0 0.8rem;
   }
 
   .flexContainerDateBox {
@@ -366,8 +371,20 @@ select {
 }
 @media (max-width: 425px) {
   /*FOR PHONES*/
+  .regContainer {
+    margin: 1rem 0;
+  }
+
+  .regDetails {
+    padding: 0.24rem 0.76rem 0.4rem;
+  }
+
+  .logoWhiteFont {
+    width: 7.15rem;
+    padding: 1.45rem 1rem 0.85rem 1.5rem;
+  }
   .mainTitle,
   .purpleSubheading {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
