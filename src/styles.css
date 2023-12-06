@@ -84,8 +84,13 @@ video {
   background: transparent;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
-  line-height: 1;
+  line-height: 24px;
+  font-size: 1.6rem;
 }
 
 article,
@@ -125,6 +130,11 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+}
+
+input,
+button {
+  font-size: 16px;
 }
 
 /* change colours to suit your needs */
@@ -176,8 +186,6 @@ select {
 
 .bodyReg {
   font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .blackHeader {
@@ -185,8 +193,8 @@ select {
 }
 
 .logoWhiteFont {
-  width: 143px;
-  margin: 27px 20px 17px 30px;
+  width: 14.3rem;
+  padding: 2.7rem 2rem 1.7rem 3rem;
 }
 
 .flexContainerMain {
@@ -196,22 +204,20 @@ select {
 }
 
 .regContainer {
-  margin: 40px 0;
-  max-width: 760px;
-  border-radius: 5px;
-  box-shadow: 0 0 8px 0 rgb(160, 160, 160);
+  margin: 4rem 0;
+  max-width: 76rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.8rem 0 rgb(160, 160, 160);
   align-self: center;
 }
 
 .mainTitle {
   background-color: rgb(143, 64, 156);
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: 800;
-  line-height: 32px;
-  padding: 20px 0px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  padding: 2rem 0;
+  border-radius: 0.5rem 0.5rem 0 0;
   font-family: sans-serif;
   text-align: center;
 }
@@ -221,7 +227,7 @@ select {
 }
 
 .regDetails {
-  padding: 0 76px;
+  padding: 2.4rem 7.6rem 4rem;
 }
 
 .flexContainerInput {
@@ -232,49 +238,53 @@ select {
 
 .pSmall {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .purpleSubheading {
   color: rgb(143, 64, 156);
-  font-size: 22px;
-  margin: 20px 0px;
+  font-size: 2.2rem;
+  margin: 2rem 0;
   font-family: sans-serif;
+}
+
+.formText {
+  padding-bottom: 1rem;
 }
 
 .inputLabel {
   font-weight: bold;
-  line-height: 28px;
   font-family: sans-serif;
+  display: block;
 }
 
 .labelDetail {
-  margin: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .helpIcon {
-  height: 38px;
+  height: 3.8rem;
 }
 
-.textBoxHalfWidth,
 .textBox {
-  border: 1px solid rgb(160, 160, 160);
-  height: 32px;
-  font-size: 16px;
-  width: 60px;
-  padding: 4px;
-  margin-bottom: 10px;
+  border: 0.1rem solid rgb(160, 160, 160);
+  height: 3.2rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
 }
 
 .textBoxHalfWidth {
-  width: 30px;
+  width: 30rem;
+  border: 0.1rem solid rgb(160, 160, 160);
+  height: 3.2rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
 }
 
 .warning {
   color: rgb(238, 86, 35);
   font-weight: bold;
-  margin-top: 0;
+  display: none;
 }
 
 .flexContainerDateBox {
@@ -286,33 +296,27 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  height: 44px;
-  font-size: 16px;
-  border: rgb(160, 160, 160), 1px;
-  padding: 4px;
-  border-radius: 5px;
+  height: 4.4rem;
+  border: rgb(160, 160, 160), 0.1rem;
+  padding: 0.4rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
   background: url("/public/dropdownIcon.png") no-repeat 96% center;
   flex-grow: 0.24;
-  margin: 1% 1% 1% 0;
-}
-
-.year {
-  margin: 2px;
+  margin-right: 0.8rem;
 }
 
 #password {
   background: url("/public/eyeIcon.png") no-repeat 96% center;
+  display: block;
 }
 
 .purpleButton {
   background-color: rgb(143, 64, 156);
   color: rgb(255, 255, 255);
-  font-size: 16px;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   border-style: hidden;
-  padding: 14px 24px;
-  min-width: 30px;
-  margin: 28px 0;
+  padding: 1.4rem 4rem;
 }
 
 .purpleButton:hover {
@@ -322,23 +326,27 @@ select {
 
 .footerReg {
   background-color: rgb(100, 100, 100);
-  padding-top: 40px;
+  display: flex;
+  flex-flow: column;
 }
 
 .footerContent {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 14px;
-  max-width: 760px;
+  font-size: 1.4rem;
+  max-width: 76rem;
+  align-self: center;
+  margin: 0 0 3rem;
 }
 
 .smallHeading {
-  font-size: 16px;
+  font-size: 1.6rem;
+  padding: 2.5rem 0;
 }
 
 .paymentCards {
-  max-height: 40px;
-  margin-top: 20px;
+  max-height: 4rem;
+  padding-bottom: 2rem;
 }
 
 .version {
@@ -348,28 +356,35 @@ select {
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
   /*FOR TABLETS*/
-  .mainReg {
-    padding: 10px;
+  .flexContainerMain {
+    padding: 0 0.8rem;
   }
-  .textBox {
-  }
-  .textBoxHalfWidth {
-  }
-  .dateBox {
-    margin: 2px 0;
-  }
+
   .flexContainerDateBox {
     flex-direction: column;
     flex-grow: 1;
+    margin: 0;
   }
   .purpleButton {
     width: 100%;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   /*FOR PHONES*/
+  .regContainer {
+    margin: 1rem 0;
+  }
+
+  .regDetails {
+    padding: 0.24rem 0.76rem 0.4rem;
+  }
+
+  .logoWhiteFont {
+    width: 7.15rem;
+    padding: 1.45rem 1rem 0.85rem 1.5rem;
+  }
   .mainTitle,
   .purpleSubheading {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
